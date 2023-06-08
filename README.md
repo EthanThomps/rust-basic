@@ -18,3 +18,7 @@ add to User Settings Json:
     },
 "explorer.compactFolders": false,
 ```
+
+# Bug Fixes
+git pull --rebase
+https://stackoverflow.com/questions/13106179/error-fatal-not-possible-to-fast-forward-aborting
