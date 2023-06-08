@@ -5,10 +5,8 @@ env_files = [".env"]
 [scripts]
 # installation
 install-rust="curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
-install-surreal="iwr https://windows.surrealdb.com -useb | iex"
+install-surreal="curl --proto '=https' --tlsv1.2 -sSf https://install.surrealdb.com | sh"
 
-# updates
-update-surreal="iwr https://windows.surrealdb.com -useb | iex"
 
 # Runs basic Commands
 serve = "trunk serve"
