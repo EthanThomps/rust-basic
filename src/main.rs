@@ -1,17 +1,9 @@
 pub mod database;
+pub mod components;
 
-use database::sqrl::db_driver;
-use yew::prelude::*;
+use components::app::App;
+use database::driver::db_driver;
 
-#[function_component]
-fn App() -> Html {
-
-    html! {
-        <div>
-            <p class={classes!("docker")}>{"Docker"}</p>
-        </div>
-    }
-}
 
 fn main() {
     db_driver();
