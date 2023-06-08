@@ -5,10 +5,13 @@ env_files = [".env"]
 [scripts]
 # installation
 install-rust="curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+install-surreal="docker run --rm --pull always -p 5000:5000 surrealdb/surrealdb:latest start"
+
 
 # Runs basic Commands
 serve = "trunk serve"
 run = "cargo run"
+
 
 # tailwind development
 tailwind-dev="cd tailwind-yew-builder && docker-compose up dev"
