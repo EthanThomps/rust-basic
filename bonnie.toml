@@ -17,3 +17,6 @@ run = "cargo run"
 tailwind-dev="cd tailwind-yew-builder && docker-compose up dev"
 tailwind-watch="cd tailwind-yew-builder && docker-compose up watch"
 tailwind-prod="cd tailwind-yew-builder && docker-compose up prod"
+
+# surreal development
+surreal-dev="surreal start --log trace --user ethan --pass Plattit1! --bind 0.0.0.0:5000"
