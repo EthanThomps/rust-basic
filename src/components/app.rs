@@ -1,6 +1,6 @@
 use yew::prelude::*;
 
-use crate::components::todos::Docker;
+use crate::components::todos::*;
 use crate::database::driver::db_driver;
 #[function_component]
 pub fn App() -> Html {
@@ -9,7 +9,7 @@ pub fn App() -> Html {
     html! {
         <div>
             <Docker/>
-            <Docker/>
+            <Todos/>
         </div>
     }
 }

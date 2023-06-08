@@ -8,3 +8,15 @@ pub fn Docker() -> Html {
         </div>
     }
 }
+
+#[function_component]
+pub fn Todos() -> Html {
+    html! {
+        <div class={classes!()}>
+            
+            <h1>{"Todos!"}</h1>
+            
+        </div>
+    }
+}
+
