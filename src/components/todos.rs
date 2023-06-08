@@ -34,7 +34,7 @@ pub fn TodoCard() -> Html {
                 <p class={classes!("todoCardMadeItem")}>{"Unkown"}</p>
             </li>
             <li class={classes!("todoCardItemHolder")}>
-                <h1 class={classes!("todoCardItem")}>{"Date"}</h1>
+                <h1 class={classes!("todoCardItem")}>{"Tags"}</h1>
                 <p class={classes!("todoCardMadeItem")}>{"Unkown"}</p>
             </li>            
         </ul>
@@ -59,9 +59,9 @@ pub fn TodoCardMaker() -> Html {
                     </div>
                 </div>
                 <div class={classes!("formItemHolder")}>
-                    <label class={classes!("todoCardItem")} for="date">{"Date"}</label>
+                    <label class={classes!("todoCardItem")} for="tag">{"Tag"}</label>
                     <div>
-                        <input type="text" name="date" id="date" class={classes!("formItem")}/> 
+                        <input type="text" name="tag" id="tag" class={classes!("formItem")}/> 
                     </div>
                 </div>            
                 <div class={classes!("formBtnHolder")}>

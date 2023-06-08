@@ -6,6 +6,7 @@ RUN rustup target add wasm32-unknown-unknown
 RUN cargo install --locked trunk
 RUN cargo build --release
 RUN cargo install bonnie
+RUN cargo add surrealdb
 
 CMD ["cargo", "run", "--release"] 
 
