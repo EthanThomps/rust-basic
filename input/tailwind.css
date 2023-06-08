@@ -2,6 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn {
-    @apply border shadow;
+.mainTitle {
+    @apply bg-blue-500 p-5 text-4xl font-light 
+}
+
+.todoCard {
+    @apply p-5 bg-gray-400 
+}
+
+.todoCardHolder {
+    @apply flex justify-center p-5
+}
+
+.todoCardItem {
+    @apply text-2xl text-black
+}
+
+.todoCardMadeItem {
+    @apply text-2xl text-white font-bold
+}
+
+.todoCardItemHolder {
+    @apply flex gap-5
+}
+
+.formItemHolder {
+    @apply  text-base p-4
+}
+
+.formCardHolder {
+    @apply flex justify-center gap-5 
+}
+
+.todoCardButton {
+    @apply  bg-gray-500 text-3xl rounded-lg p-5 my-5
+}
+
+.formBtnHolder {
+    @apply flex gap-8 justify-center
+}
+
+.formItem {
+    @apply text-black text-2xl
 }
